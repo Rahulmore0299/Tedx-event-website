@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+.navbar {
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 26px 15px;
+    text-transform: uppercase;
+}
+
+.bg-red {
+    background-color: #e62b1e;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+
+.backgroung-img {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.logo img {
+    width: 200px;
+
+}
+
+.logo {
+    margin-left: 90px;
+}
+
+/*  */
+
+.red-under h1::after {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 7px;
+    background-color: red;
+    margin-top: 20px;
+}
+
+
+.speakers {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    grid-row-gap: 35px;
+    margin-bottom: 55px;
+}
+
+.speakers img {
+    width: 288px;
+    height: 436px;
+}
+
+.speakers-container h1{
+    padding: 70px 84px;
+}
+
+
+
+/*  */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+footer img {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.footer-icons span {
+    padding: 0 17px;
+
+}
+
+.footer-icons span a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+    font-size: 25px;
+}
+
+.footer-icons span i:hover {
+    color: black;
+}
+
+.timing {
+    background-image: url("../images/timing.png");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar ul a li:hover{
+    color: rgb(215, 213, 213);
+}
